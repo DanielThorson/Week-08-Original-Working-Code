@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dank Donuts</title>
+    <link rel="stylesheet" href="./Styles.css">
+</head>
+<body class="background">
+    <div class="blue">
+        <div class="center"><img src="./Dank_Donuts_Logo.png" alt="Logo of Donut" width="250px"></div>
+        <h4>Making Great Donuts Since Last Tuesday!</h4>
+        <br>
+    </div>
+    <div class="font">
+        <h1 class="font ">Main Menu</h1>
+        <div>
+            <h3>01. Select A Shop Location</h3>
+            <input type="text" name="shop" id="shop">
+            <script src="./Shop_Fetch.js"></script>
+        </div>
+        <br>
+        <div class="cell">
+            <h3 class="">02. Please Make A Selection</h3>
+            <div class="flex center">
+                <button onclick="document.location='./Create_Donut_Shop.html'" class="button1">Create New Shop</button>
+                <button onclick="document.location='./Create_New_Donut_Type.html'" class="button1">Create New Donut</button>
+                <button onclick="document.location='./Add_Inventory.html'" class="button1">Add Inventory</button>
+                <button onclick="document.location='./Print_Inventory.html'" class="button1">Print Inventory</button>
+                <button onclick="document.location='./Print_Revenue.html'" class="button1">Print Revenue</button>
+                <button onclick="document.location='./Place_Order.html'" class="button1">Place Order</button>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
